@@ -1,6 +1,6 @@
-package dev.rainfrogs.tadpole.mixin.client.render;
+package dev.wetfrogs.tadpole.mixin.client.render;
 
-import dev.rainfrogs.tadpole.client.screenshake.ScreenshakeHandler;
+import dev.wetfrogs.tadpole.client.screenshake.ScreenshakeHandler;
 import net.minecraft.client.render.Camera;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.Vec3d;

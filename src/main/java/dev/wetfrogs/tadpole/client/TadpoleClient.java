@@ -1,4 +1,4 @@
-package dev.rainfrogs.tadpole.client;
+package dev.wetfrogs.tadpole.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

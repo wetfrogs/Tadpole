@@ -1,4 +1,4 @@
-package dev.rainfrogs.tadpole.client.screenshake;
+package dev.wetfrogs.tadpole.client.screenshake;
 
 import net.minecraft.util.math.Vec3d;
 

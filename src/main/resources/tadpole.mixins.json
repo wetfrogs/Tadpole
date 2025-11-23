@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "dev.rainfrogs.tadpole.mixin",
+  "package": "dev.wetfrogs.tadpole.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
