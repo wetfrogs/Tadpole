@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "tadpole",
+	"version": "${version}",
+	"name": "Tadpole",
+	"description": "Common code for rainfrogs' mods",
+	"authors": [
+		"rainfrogs"
+	],
+	"license": "ARR",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.rainfrogs.tadpole.Tadpole"
+		],
+        "client": [
+            "dev.rainfrogs.tadpole.client.TadpoleClient"
+        ]
+	},
+    "accessWidener" : "tadpole.accesswidener",
+	"mixins": [
+      "tadpole.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
