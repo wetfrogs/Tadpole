@@ -1,5 +1,6 @@
 package dev.wetfrogs.tadpole;
 
+import dev.wetfrogs.tadpole.index.TadpoleBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
@@ -13,6 +14,8 @@ public class Tadpole implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        TadpoleBlocks.initialize();
+
         CommandRegistrationCallback.EVENT.register((dispatcher, access, environment) -> {
         });
 	}

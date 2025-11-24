@@ -15,6 +15,9 @@
 		],
         "client": [
             "dev.wetfrogs.tadpole.client.TadpoleClient"
+        ],
+        "fabric-datagen": [
+            "dev.wetfrogs.tadpole.datagen.TadpoleDatagen"
         ]
 	},
     "accessWidener" : "tadpole.accesswidener",
